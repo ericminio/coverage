@@ -1,19 +1,25 @@
 {
-  "name": "coverage",
-  "version": "1.0.0",
-  "description": "keeping an eye on coverage while playing outside-in tdd",
-  "main": "index.js",
-  "scripts": {
-    "test": "node --test --experimental-test-coverage $(find about -name '*.test.js')"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ericminio/coverage.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ericminio/coverage/issues"
-  },
-  "homepage": "https://github.com/ericminio/coverage#readme"
+    "name": "coverage",
+    "version": "1.0.0",
+    "description": "keeping an eye on coverage while playing outside-in tdd",
+    "main": "index.js",
+    "scripts": {
+        "test": "node --test --experimental-test-coverage $(find about -name '*.test.js')",
+        "prettier:check": "npx prettier --check .",
+        "prettier:write": "npx prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ericminio/coverage.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ericminio/coverage/issues"
+    },
+    "homepage": "https://github.com/ericminio/coverage#readme",
+    "type": "module",
+    "devDependencies": {
+        "prettier": "^3.0.3"
+    }
 }
