@@ -1,3 +1,3 @@
 # coverage
 
-keeping an eye on coverage while playing outside-in tdd
+keeping an eye on coverage while playing outside-in tdd with testcafe
